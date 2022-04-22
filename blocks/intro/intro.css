@@ -1,5 +1,5 @@
-.lead {
-  width:984px;
+.intro {
+  width:690px;
   display: flex;
   flex-direction: column;
 }
