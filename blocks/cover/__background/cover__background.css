@@ -2,15 +2,12 @@
   background-image: url("../../../image/railways.jpg");
   background-size: contain;
   width: 100%;
-  height: 740px;
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   position: relative;
   text-decoration: none;
   color: #FFF;
-
+  padding-bottom: 62.5%;
+  display: flex;
 }
 
 .cover__background:hover .cover__overlay {

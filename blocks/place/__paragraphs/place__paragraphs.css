@@ -1,0 +1,9 @@
+.place__paragraphs {
+  width:100%;
+}
+@media screen and (max-width: 450px) {
+  .place__paragraphs {
+    padding: 32px 5% 0 5%;
+    box-sizing: border-box;
+  }
+}

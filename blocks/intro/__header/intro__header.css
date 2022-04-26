@@ -2,6 +2,20 @@
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
-  line-height: 1.2;
+  line-height: 1.07;
   margin: 0;
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .intro__header {
+    padding: 0 3.1%;
+    font-size: 52px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .intro__header {
+    padding:  0 5%;
+    font-size: 32px;
+    max-width: 250px;
+    line-height: 1.09;
+  }
 }

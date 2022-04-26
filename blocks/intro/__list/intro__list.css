@@ -1,4 +1,17 @@
 .intro__list {
-  margin: 33px 0 0 0;
-  padding: 0;
+  padding: 33px 0 0 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .intro__list {
+    padding: 33px 3.1% 0 3.1%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .intro__list {
+    padding:  33px 5% 0 5%;
+    width: 100%;
+  }
 }

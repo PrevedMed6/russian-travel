@@ -1,6 +1,11 @@
 .place__link {
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.22;
   border-bottom: #FFF solid 1px;
-
 }
+@media screen and (max-width: 425px) {
+  .place__link {
+    margin: 0 5%;
+  }
+}
+

@@ -2,3 +2,8 @@
   align-self: end;
   margin-bottom: 48px;
 }
+@media screen and (max-width: 425px) {
+  .place__website {
+    margin-bottom: 32px;
+  }
+}

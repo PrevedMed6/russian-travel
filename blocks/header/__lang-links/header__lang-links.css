@@ -1,6 +1,5 @@
 .header__lang-links {
-  width: 76px;
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-end;
   align-self: flex-end;
 }
