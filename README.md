@@ -14,5 +14,4 @@ HTML5, CSS3
 
 **Ссылка на проект**
 
- [Путешествие по России](https://tinypng.com/).
-s
+ [Путешествие по России](https://prevedmed6.github.io/russian-travel/)
