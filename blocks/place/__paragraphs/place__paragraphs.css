@@ -1,9 +1,14 @@
 .place__paragraphs {
   width:100%;
+  box-sizing: border-box;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
+  .place__paragraphs {
+    padding-top: 32px;
+  }
+}
+@media screen and (max-width: 425px) {
   .place__paragraphs {
     padding: 32px 5% 0 5%;
-    box-sizing: border-box;
   }
 }

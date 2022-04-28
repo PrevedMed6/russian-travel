@@ -7,9 +7,6 @@
   text-decoration: none;
   color: #FFF;
   padding-bottom: 62.5%;
-  display: flex;
+  display: block;
 }
 
-.cover__background:hover .cover__overlay {
-  opacity: 0.8;
-}

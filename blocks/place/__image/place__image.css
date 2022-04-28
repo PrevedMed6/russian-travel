@@ -8,13 +8,14 @@
     max-width: 440px;
   }
 }
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 650px) and (max-width: 768px) {
   .place__image {
     max-width: 340px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 650px) {
   .place__image {
     min-width: 300px;
+    margin: auto;
   }
 }

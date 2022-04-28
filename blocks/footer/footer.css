@@ -1,5 +1,6 @@
 .footer {
   max-width:1184px;
+  min-width: 288px;
   display: flex;
   justify-content: space-between;
   padding-bottom: 24px;
@@ -9,15 +10,18 @@
     width: calc(100% - 96px);
   }
 }
-@media screen and (min-width: 660px) and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
   .footer {
     width: calc(100% - 48px);
   }
 }
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 740px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 425px) {
   .footer {
     width: calc(100% - 32px);
-    min-width: 288px;
-    flex-direction: column;
   }
 }

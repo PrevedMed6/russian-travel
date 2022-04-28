@@ -11,7 +11,7 @@
     line-height: 1;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 425px) {
   .place__url-heading {
     margin: 0 5% 12px 5%;
   }
